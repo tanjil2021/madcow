@@ -1,0 +1,129 @@
+
+@media (min-width: 1200px) {
+    .preview_outer{
+       max-height: 220px;
+    }
+
+    /* buying and booking section starts  */
+    #buying, #booking {
+       padding-bottom: 40px;
+       padding-top: 40px;
+    }
+    /* buying and booking section ends  */
+
+ }
+ 
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    .button {
+       font-size: 12px;
+       padding: 10px 24px;
+    }
+    .preview_outer a{
+       font-size: 12px;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+       width: 99%;
+       max-width: 99%;
+    }
+    .banner_inner p{
+       font-size: 16px;
+    }
+    .banner_inner h1,
+    .default_section_heading {
+       font-size: 2.5rem;
+    }
+    .banner_inner {
+       width: 75%;
+    }
+    .banner_inner h1 {
+       margin-top: 40px;
+    }
+ }
+ 
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+   /* logo starts  */
+   .logo-c {
+      width: 20%;
+   }
+   /* logo ends  */
+    .banner_inner {
+       width: 90%;
+    }
+    .default_section_heading {
+       font-size: 40px;
+    }
+    .banner_inner {
+       width: 100%;
+    }
+    .banner_inner h1 {
+       font-size: 40px;
+    }
+    .banner_inner p {
+       font-size: 15px;
+    }
+    .footer h3 {
+       text-align: center; 
+       margin-bottom: 20px;
+    }
+ 
+    .footer ul {
+       text-align: center;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+
+ @media (max-width: 575.98px) {
+   /* default styles starts*/
+   .default_section_heading {
+      font-size: 2rem;
+   }
+   /* default styles ends*/
+
+   /* logo  */
+   .logo-c {
+      text-align: center;
+      width: 20%;
+      margin: auto 40%;
+   }
+
+   /* banner section  */
+   .demo-banner {
+      height: 300px;
+   }
+   .banner_inner h1 {
+      font-size: 30px;
+      margin-top: 90px;
+   }
+
+   /* media starts  */
+   .media-box {
+      width: 90%;
+      padding: 0;
+   }
+   /* media ends  */
+   /* feauture section starts  */
+   
+   /* feauture section ends  */
+   /* review section starts  */
+  
+   .review-text {
+      font-weight: 100;
+      font-size: 22px;
+   }
+   .review-image {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+   }
+   .name {
+      margin-left: 5px;
+   }
+   /* review section ends  */
+   /* support section starts  */
+   
+   /* support section ends  */
+}
